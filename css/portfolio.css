@@ -1,3 +1,19 @@
+:root {
+  --base-color: #eeeeee;
+}
+
 .fab {
   font-size: 25px;
+}
+.fab:hover {
+  color: #c68e17;
+}
+
+a {
+  text-decoration: none;
+  color: #bbbbbb;
+}
+
+a:hover {
+  color: #c68e17;
 }
