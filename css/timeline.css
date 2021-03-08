@@ -79,16 +79,27 @@
 
 .timeline-content a {
   text-decoration: none;
+  list-style: none;
 }
 
-.timeline-content img {
-  image-rendering: -webkit-optimize-contrast;
+.footer-logo {
+  font-size: 44px;
+  color: #cccccc;
 }
 
-.logo {
+.footer-logo:hover {
+  color: #333333;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
   display: flex;
-  margin: 15px auto;
-  width: 150px;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
 }
 
 @media screen and (max-width: 567px) {
