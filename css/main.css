@@ -13,6 +13,7 @@ a .navbar-brand {
 body {
   overflow-y: scroll; /* Show scrollbars */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
 }
 
 div.container {
@@ -41,7 +42,7 @@ h3 {
   background: -webkit-linear-gradient(#ffffff, rgb(0, 0, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Alliance No.1 Light;
+  font-family: Verdana;
 }
 
 h1,
@@ -50,7 +51,7 @@ h3:hover {
   background: -webkit-linear-gradient(#000000, rgb(255, 255, 255));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Alliance No.1 Light;
+  font-family: Verdana;
 }
 
 .fab {
