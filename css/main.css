@@ -12,8 +12,13 @@ a .navbar-brand {
 
 body {
   overflow-y: scroll; /* Show scrollbars */
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Raleway", sans-serif;
   color: grey;
+}
+
+.navbar-custom .navbar-brand {
+  color: grey;
+  color: -webkit-linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
 }
 
 div.container {
@@ -43,6 +48,7 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: Verdana;
+  text-transform: initial;
 }
 
 h1,
