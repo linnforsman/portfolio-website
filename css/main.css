@@ -12,7 +12,7 @@ a .navbar-brand {
 body {
   overflow-y: scroll; /* Show scrollbars */
   overflow-x: hidden;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway;
   color: grey;
 }
 
@@ -20,6 +20,12 @@ body {
   color: grey;
   color: -webkit-linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
 }
+
+
+.navbar-custom {
+  color: hotpink;
+}
+
 
 div.container {
   color: grey;
@@ -41,13 +47,17 @@ div.container {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
+::-webkit-scrollbar:hover {
+  color: rgb(0, 0, 0);
+}
+
+
 h1,
 h2,
 h3 {
   background: -webkit-linear-gradient(#ffffff, rgb(0, 0, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Verdana;
   text-transform: initial;
 }
 
@@ -57,7 +67,6 @@ h3:hover {
   background: -webkit-linear-gradient(#000000, rgb(255, 255, 255));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Verdana;
 }
 
 .fab {
@@ -93,8 +102,6 @@ a {
 }
 
 /* PROJECT SEARCH */
-
-
 
 /* SKILLS SECTION */
 .progress-bar {
